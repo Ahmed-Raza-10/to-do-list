@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* main body */
+body{
+    margin: 09px;
+    padding: 2px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* All button */
+button{
+    padding: 1px;
+}
+
+/* input that user gives */
+#userInput{
+    width : 70%;
+    padding: 10px;
+    border-radius: 24px;
+}
+/* add button */
+#addTask{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+/* main tag */
+main{
+    margin: 5% auto;
+}
+/* List for to do list */
+#list{
+    font: 1.2rem "Arial" , sans-serif;
+    background-color: rgba(10, 95, 159, 0.454);
+    padding: 2%;
+    padding-left: 2%;
+    border-radius: 10px;
+}
+/* date for to do list */
+#Date{
+    font: 0.7rem "Arial" , sans-serif;
+    padding: 5px ;
+    background-color: rgba(240, 248, 255, 0.407);
+    margin: auto;
+}
+/* list for to do list */
+#listButton{
+    font: 1rem "Arial" , sans-serif;
+    background-color: red;
+    padding: 3px ;
+    margin: 2px;
+    float: right;
+    border: none;
+    margin-bottom: 10px;
+}
